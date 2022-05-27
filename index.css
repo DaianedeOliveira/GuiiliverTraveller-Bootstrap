@@ -1,241 +1,264 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
+
 :root{
-    
-    --blue-p: #073673;
+    --blue-p: #062B5C;
     --orange-p: #F28907;
     --white-p: #FFFFFF;
 }
 *{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box!important;
 }
-
-.logo{
-    width: 180px;
-
-}
-
-.centralizar-nav{
-    margin-left: 8em!important;
-    margin-right: 8em!important;
+body{
+    overflow-x: hidden!important;
+    margin: 0!important;
     padding: 0!important;
 }
-
-.nav-color{
+.navbar{
     background-color: var(--orange-p);
 }
-
-.navbar-itens-color a{
-    color: var(--white-p) !important;
-    cursor: pointer;
+.navbar a{
+    color: var(--white-p)!important;
+    font-weight: bolder;
 }
-
-a:hover{
-    cursor: pointer;
-    background-color: #073673;
-    border-radius: 5px;
+.nav-item a:hover{
+    color: var(--blue-p)!important;
 }
-
-
-.conteudo{
+header{
     background-color: var(--blue-p);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
 }
-.banner{
-    display: flex;
-    flex-direction: row;
+header .navbar-brand{
+    padding-left: 8rem;
+}
+header .nav-item{
+    padding: 0.9rem;
+}
+header .nav-item:last-child{
+    padding-right: 10.5rem;
+}
+.dropdown-menu{
+    background-color: var(--orange-p)!important;
+}
+.dropdown-menu a:hover{
+    background-color: var(--blue-p)!important;
+    color: var(--white-p)!important;
+}
+.cabecalho-banner{
     padding-top: 5rem;
 }
-
 .mold-oval{
-    width: 15rem;
-    height: 20rem;
-    z-index: 1;
-    margin-left: 8rem;
-    border: 11px solid var(--orange-p) ;
+    width: 241px;
+    height: 309px;
+    border: 11px solid var(--orange-p) ; 
     border-radius: 100px;
     background-image: url(imgs/img1.svg);
-    
+    background-size: cover;
 }
-
-
 .mold-oval-sec{
-    width: 15rem;
-    height: 20rem;
-    z-index: 1;
-    margin-left: 2rem;
-    margin-top: 3rem;
+    width: 241px;
+    height: 309px;
+    margin-top: 5rem;
     border: 11px solid var(--orange-p) ;
     border-radius: 100px;
     background-image: url(imgs/img-2.svg);
+    background-size: 120%;
+    background-position: 16%;
+    background-repeat: no-repeat;
+}
+.texto-1{
+    padding-top: 5rem;
+    color: var(--white-p);
+}
+.texto-1 h1{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.texto-1 p{
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.texto-1 img{
+    width: 35px;
+    height: 35px;
+}
+.botao-login{
+    width: 220px;
+    height: 60px;
+    background-color: var(--orange-p)!important;
+    color: var(--white-p)!important;
+    border-radius: 35px!important;
+}
+.botao-login:hover{
+    background-color: rgb(143, 143, 143);
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
-.texto{
-    width: 300px;
-    height: 300px;
-    margin-top: 10rem;
-    color: var(--white-p);
-    font-size: 1rem;
-    margin-left: 4%;
+.barra-busca{
+    width: 75%!important;
+    height: 60px!important;
+    margin-top: 8rem;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.login{
-    width: 200px;
+.barra-busca input{
+    border-top-left-radius: 35px!important;
+    border-bottom-left-radius: 35px!important;
+}
+.barra-busca button{
+    border-top-right-radius: 35px!important;
+    border-bottom-right-radius: 35px!important;
+    background-color: var(--orange-p);
+    color: var(--white-p);
+    font-weight: 300;
+}
+
+.waves{
+    width: 100%!important;
+    margin: 0;
+    padding: 0;
+    transform: rotate(180deg);
+}
+.sec-1{
+    background-color: var(--white-p);
+    padding-top: 5rem;
+}
+.sec-1 h1{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--blue-p);
+}
+.icone-servicos{
+    width: 150px;
+    height: auto;
+    margin-right: 6.5rem;
+    border-radius: 100px;
+}
+.icone-servicos img{
+    width: 180px;
+    height: 180px;
+    margin-left: 6rem;
+}
+.icone-servicos h2{
+    width: 215px;
+    height: 32px;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+    color: var(--white-p);
+    background-color: var(--orange-p);
+    border-radius: 35px;
+    
+}
+.sec-2{
+    background-color: var(--orange-p);
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+.borda-titulo{
+    width: 350px;
+    height: 42px;
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    background-color: var(--blue-p);
+    border-radius: 35px;
+}
+.borda-titulo h1{
+    font-size: 1.5rem;
+    color: var(--white-p);
+}
+.card{
+    width: 350px;
+    height: 400px;
+    background-color: transparent!important;
+    border-radius: 35px!important;
+}
+.card img{
+    width: 350px;
+    height: 400px;
+    border-radius: 35px;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.aval-stars{
+    margin-bottom: 2rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: #FFD600;
+}
+
+.box{
+    color: #000;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: #062B5C;
+    cursor: pointer;
+    color: #000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.informacoes-contato{
+    padding-top: 8rem;
+}
+.informacoes-contato h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.informacoes-contato i{
+    font-size: 2rem;
+}
+.assistant-virtual{
+    width: 540px;
+    height: 520px;
+}
+
+.formulario-contato h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--orange-p);
+}
+.formulario-contato input, textarea{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+.email{
+    width: 689px;
+    height: 55px;
+    padding: 1.5rem;
+}
+.mensagem{
+    width: 689px;
+    height: 180px;
+    padding: 1.5rem;
+    resize: none;
+}
+.botao-enviar{
+    width: 150px;
     height: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: var(--orange-p);
     color: var(--white-p);
     border: none;
     border-radius: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;font-family: 'Lato', sans-serif;
-font-weight: bold;
 }
-
-.login:hover{
-background-color: rgb(184, 184, 184);
-color: rgb(255, 255, 255);
-cursor: pointer;
-font-weight: bold;
--webkit-transform: scale(0.8);
--ms-transform: scale(0.8); 
-transform: scale(0.8);
+.final-rodape{
+    height: 70px;
+    background-color: var(--blue-p);
 }
-
-    
-
-
-
-.busca{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: 200px;
-    background-color: #073673;
-}
-
-.barra-busca{
-    width: 50%;
-    height: 60px;
-    margin-top: 5rem;
-    padding: 2rem;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 35px;
-}
-
-.hotel{
-    justify-content: center;
-    background-color: #F28907;
-    height: 500px;
-    background-size: cover;
-    width: 100%;
-}
-
-
-.titulofinal{
-
-    justify-content: center;
-    text-align: center;
-    font-weight: bolder;
-    width: 80%;
-    font-size:25px;
-    color: #FFFFFF;
-    background-color: #073673;
-    border-radius: 32px;
-    margin-bottom: 2%;
-
-}
-
-.forms{
-    color: black;
-    font-weight: bold;
-    padding-top: 8px;
-}
-
-
-.forms #email{
-    padding-bottom: 10px;
-}
-
-.contato{
-    color: black;
-    font-weight: bold;
-    
-}
-
-
-.butao{
-    width: 150px;
-    height: 50px;
-    margin-top: 20px;
-    border-radius: 35px;
-    background-color: #F28907;
-    color: #FFFFFF;
-    border: none;
-
-
-}
-
-.butao:hover{
-background-color: rgb(184, 184, 184);
-color: black;
-cursor: pointer;
--webkit-transform: scale(0.8);
--ms-transform: scale(0.8); 
-transform: scale(0.8);
-}
-
-
-
-.rodape{
-    background-color: #073673;
-    height: 45px;
-    margin-top: 15px;
-
-}
-
-
-.imagem{
-    width: 450px;
-    height: 400px;
-    margin-left: 600px;
-    margin-top: -500px;
-}
-
-.search{
-    border: none; 
-    background-color: #F28907;
-    color: #FFFFFF;
-    font-weight: bold;
-    border-radius: 8px;
-    width: 80px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-
-}
-
-.search:hover{
-background-color: rgb(184, 184, 184);
-
-}
-
-
-#msg{
-margin-top: -20px;
-background-color: #c0bcbc;
-border-radius: 8px;
-border: none;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-
-
-#email{
-background-color: #c0bcbc;
-border-radius: 8px;
-border: none; 
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
