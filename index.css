@@ -16,12 +16,13 @@ body{
     margin: 0!important;
     padding: 0!important;
 }
+
 .navbar{
     background-color: var(--orange-p);
 }
 .navbar a{
     color: var(--white-p)!important;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .nav-item a:hover{
     color: var(--blue-p)!important;
