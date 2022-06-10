@@ -197,6 +197,14 @@ header .nav-item:last-child{
     color: #FFD600;
 }
 
+
+.historia{
+    background-color: #062B5C;
+    box-shadow: 0px 20px 1px 0.5px  #F28907;
+    color:#D9D9D9 ;
+    padding: 5px;
+}
+
 .box{
     color: #000;
     cursor: pointer;
