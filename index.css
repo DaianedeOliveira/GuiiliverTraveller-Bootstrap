@@ -321,6 +321,17 @@ textarea {
 }
 
 
+#map-link{
+    color: #D9D9D9;
+    border-radius: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    margin-left: 40px;
+
+}
+
 .carro-img,
 .carro-img1,
 .carro-img2 {
