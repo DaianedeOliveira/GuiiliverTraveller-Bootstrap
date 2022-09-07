@@ -29,6 +29,7 @@ function geoFindMe() {
 }
 
 document.querySelector('#find-me').addEventListener('click', geoFindMe);
+<<<<<<< HEAD
 
 
 
@@ -86,3 +87,5 @@ document.querySelector('#find-me').addEventListener('click', geoFindMe);
 function getMore(){
     $('#meuModal').modal('toggle')
 }
+=======
+>>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
