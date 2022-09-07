@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
 
-<<<<<<< HEAD
-
-:root{
-=======
 :root {
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
     --blue-p: #062B5C;
     --orange-p: #F28907;
     --white-p: #FFFFFF;
@@ -64,20 +59,11 @@ header .nav-item:last-child {
     color: var(--white-p) !important;
 }
 
-<<<<<<< HEAD
-.cabecalho-banner{
-    padding-top: 5rem;
-}
-
-
-.mold-oval{
-=======
 .cabecalho-banner {
     padding-top: 5rem;
 }
 
 .mold-oval {
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
     width: 241px;
     height: 309px;
     border: 11px solid var(--orange-p);
@@ -310,11 +296,7 @@ textarea {
     resize: none;
 }
 
-<<<<<<< HEAD
-.botao-enviar{
-=======
 .botao-enviar {
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
     width: 150px;
     height: 50px;
     margin-top: 2rem;
@@ -324,33 +306,18 @@ textarea {
     border: none;
     border-radius: 35px;
     font-weight: bold;
-<<<<<<< HEAD
-    
-}
-
-
-.botao-enviar:hover{
-=======
 
 }
 
 
 .botao-enviar:hover {
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
     transform: scale(1.1);
     transition: all 0.5s;
 }
 
-<<<<<<< HEAD
-.final-rodape{
-    height: 70px;
-    background-color: var(--blue-p);
-    
-=======
 .final-rodape {
     height: 70px;
     background-color: var(--blue-p);
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
 }
 
 .serviços {
@@ -358,10 +325,7 @@ textarea {
     padding-bottom: 50px;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
 #map-link{
     color: #D9D9D9;
     border-radius: 20px;
@@ -369,28 +333,17 @@ textarea {
     text-decoration: none;
     text-align: center;
     font-weight: 800;
-<<<<<<< HEAD
-    margin-left: 40px;
-
-}
-
-=======
     margin-left: 60px;
 
 }
 
 
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
 #map-link:hover{
     text-decoration: underline;
     font-style: italic;
     color: #ffae00;
     
-<<<<<<< HEAD
-}
-=======
 
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
 .carro-img,
 .carro-img1,
 .carro-img2 {
@@ -408,17 +361,9 @@ textarea {
 
 
 .titulo_carro {
-<<<<<<< HEAD
-    font-weight: 900;
-    color: #F28907;
-    font-size: 32px;
-    font-weight: 900;
-
-=======
     font-weight: bolder;
     color: #073673;
     font-size: 32px;
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
 
 
 }
@@ -433,25 +378,6 @@ textarea {
     transition: all 0.5s;
 }
 
-<<<<<<< HEAD
-.titulo-contact{
-    font-size: 32px;
-    color: hsl(33, 94%, 49%);
-    font-weight: 900;
-    
-
-
-}
-
-.contact{
-    cursor: pointer;
-}
-
-.contact:hover{
-    color: #7e7e7e;
-    font-style: italic;
-}
-=======
 .titulo-contact {
     font-size: 32px;
     color: hsl(33, 94%, 49%);
@@ -467,4 +393,3 @@ textarea {
     color: #7e7e7e;
     font-style: italic;
 }
->>>>>>> 2bb1955fdbaa47c7c2cd86b1326b06a7abba2d05
