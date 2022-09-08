@@ -320,11 +320,10 @@ textarea {
 .card-place{
     display: inline-block;
     justify-content: center;
+    align-items: center;
     border-radius: 50px;
     cursor: pointer;
     height: 200px;
-
-
 
 }
 
