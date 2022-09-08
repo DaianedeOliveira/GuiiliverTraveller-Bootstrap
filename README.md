@@ -1,10 +1,6 @@
 # 🗺️ Gulliver Traveller
-### 📍 Ferramentas utilizadas
-### -Bootstrap
-###-HTML
-###-CSS
-###-JavaScript
-###-API
+### 📍 Ferramentas utilizadas: Bootstrap, HTML, CSS, JS e API
+
 
 ### 📎 Projeto na branch master
 ### 🛠 Projeto em construção
