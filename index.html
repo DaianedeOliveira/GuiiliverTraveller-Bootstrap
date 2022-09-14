@@ -132,24 +132,23 @@
             <h1 style="color: #073673; font-weight:900; font-size: 28px;">Descubra hospedagens incríveis com sua
               localização atual!</h1>
             <div class="form">
-              <form action="#">
+            <form action="#">
 
                 <fieldset>
-
-                  <label for="date">Data de ida:</label>
+                  <label class="labelfor" for="date">Data de entrada:</label>
                   <input type="date" class="input-form">
 
-                  <label for="date">Data de volta:</label>
+                  <label class="labelfor" for="date">Data de saída:</label>
                   <input type="date" class="input-form">
 
 
-                  <label for="Destino:">Localização atual:</label>
-                  <input type="search" id="SearchInput" class="input-form" placeholder="Ex: São Paulo">
+                  <label class="labelfor" for="Destino:"></label>
+                  <input type="search" id="SearchInput" class="input-form" placeholder="Próximo à localização atual">
 
 
-                  <button class="form-button" href=#SP id="find" type="button">Buscar</button>
+                  <button class="form-button" href=#SP id="find" type="button"> <i class="fa fa-search" aria-hidden="true"></i> Pesquisar</button>
                   <p id="status"></p>
-                  <a id="map-link" target="_blank"></a>
+                  <a id="map-link" title="Clique aqui para ver no mapa" target="_self"></a>
 
                 </fieldset>
               </form>
