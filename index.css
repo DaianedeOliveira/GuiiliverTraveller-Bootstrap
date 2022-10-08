@@ -188,8 +188,10 @@ header .nav-item:last-child {
 
 .sec-2 {
     background-color: var(--orange-p);
-    margin-top: 3rem;
-    padding-top: 3rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    height: 900px;
+
 }
 
 .borda-titulo {
@@ -222,7 +224,9 @@ header .nav-item:last-child {
 
 .card-title {
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 900;
+    text-align: left;
+    color:#062B5C
 }
 
 .aval-stars {
@@ -237,6 +241,8 @@ header .nav-item:last-child {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    
+
 }
 
 .box:hover {
@@ -341,7 +347,7 @@ textarea {
 }
 
 .titulo-galeria{
-    font-size: 32px;
+    font-size: 28px;
         color: hsl(33, 94%, 49%);
         font-weight: bolder;
         text-align: center;
@@ -349,7 +355,7 @@ textarea {
 }
 
 em{
-    font-size: 32px;
+    font-size: 28px;
         color: hsl(33, 94%, 49%);
         font-weight: bolder;
         text-align: center;
@@ -433,6 +439,16 @@ em{
 
 }
 
+#map {
+    height: 180px;
+    margin-left: 260px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: none;
+    
+}
+
 
 .form {
     padding-left: 20px;
@@ -444,6 +460,7 @@ em{
     margin-bottom: 60px;
     color: rgb(0, 0, 0);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
     
 }
 
@@ -472,6 +489,7 @@ em{
     transform: scale(1);
     transition: all 0.5s;
     margin-left: 17px;
+    
 }
 
 .form-button i{
@@ -487,6 +505,188 @@ em{
     padding-right: 8px;
 }
 
+.gastronomia{
+    background-color: #062B5C;
+    height: 1000px;
+
+
+}
+
+.title-restaurante{
+    color: #F28907;
+    font:800;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.text-1{
+    font: 600;
+    font-size: 18px;
+    color: var(--white-p);
+    margin-bottom: 2rem;
+    margin-left: 250px;
+    width: 50%;
+    padding-top: 10px;
+}
+
+
+.card-text{
+    text-align: left;
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+
+
+}
+
+.box{
+float:left;
+align-items: baseline;
+
+}
+
+    .text-rest {
+            color:#F28907;
+            text-decoration: none;
+            font-weight: 900;
+            cursor: pointer;
+            display: flex;
+            align-items: flex-start;
+        }
+
+
+.card-rest  {
+        cursor: pointer;
+        border-radius: 10px;
+        width: 50px;
+    }
+
+    .card-rest:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+
+.gastro-button{
+border: none;
+background-color:#F28907;
+color: #ededed;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 17px;
+    margin-top: 15px;
+    
+
+}
+.button-gastro{
+    margin-top: 15px;
+    border: none;
+    background-color:#F28907;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.button-gastro > i {
+    padding: 10px;
+}
+
+.button-gastro:hover{
+    transform: scale(1.1);
+        transition: all 0.5s;
+        color: #ffffff;
+}
+
+.text-gastronomia{
+    color: #D9D9D9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.gastro-button:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+background-color: #9f9f9f;
+}
+
+.cultura{
+    background-color:#F28907;
+    height: 600px;
+    color: #D9D9D9;
+}
+
+
+.title-cultura{
+    color: #062B5C;
+    font: 800;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 25px;
+}
+.titulo-video{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #062B5C;
+}
+
+iframe{
+    width: 400px;
+}
+
+.museus{
+    padding-top: 20px;
+}
+
+.gastronomia-cards{
+    position: fixed;
+}
+
+.mb-0{
+    text-align: left;
+    
+}
+
+.chegar{
+    background-color: #F28907;
+    padding-top: 55px;
+    margin-top: 50px;
+
+}
+
+.mb-1{
+    text-align: left;
+}
+
+.title-chegar{
+    color: #062B5C;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card-sp{
+    width: 550px;
+    background-color: #062B5C;
+    height: 300px;
+    color: #e7f3ff;
+    font-weight: 500;
+    border-radius: 50px;
+    padding-top: 25px;
+}
+
+.sp-conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.sp-img{
+    padding-left: 600px;
+    position: absolute;
+    
+}
 
 @media (min-width: 282px) and (max-width: 900px) {
     .input-form {
@@ -502,6 +702,131 @@ em{
 
     .form-button {
         margin-top: 10px;
+
+
         }
+
+        .gastronomia, sec-2{
+            display: inline-block;
+            overflow-x: auto;
+
+        }
+
+        iframe{
+        height: 50px;
+        }
+
+        .card-sp{
+            overflow-x: auto;
+            display: flex;
+            width: 100%;
+
+        }
+}
+
+@mixin media() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+.siteTitle {
+    display: block;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px 0;
+
+    @include media {
+        font-size: 60px;
+    }
+}
+
+
+.cardi {
+    height: 400px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    border: 5px solid  #F28907;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-image: url('/imgs/757fff60-653b-11ea-a7ef-af8ef93671e0.jfif');
+    background-size: cover;
+
+    @include media {
+        height: 500px;
+    }
+}
+
+.inneri {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
     
+    @include media {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.title {
+    font-size: 24px;
+    color:#F28907;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    margin: 0 0 20px 0;
+
+    @include media {
+        font-size: 30px;
+    }
+}
+
+.subtitle {
+    
+    color: #000;
+    text-align: center;
+}
+
+.card2 {
+    background-image: url('/imgs/1342321556_3049158856_d6f945c294_o.jpg');
+}
+
+.card3 {
+    background-image: url('/imgs/catedral-da-se.jpg')
+}
+
+.dicas{
+    padding-top: 12px;
+    text-align: center;
+    background-color: #062B5C;
+}
+
+.dicas-uteis{
+    font-size: 32px;
+        font-weight: bolder;
+        color:#F28907;
+        
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background:#8fa4bf;
+    border-radius: 2px;
 }
