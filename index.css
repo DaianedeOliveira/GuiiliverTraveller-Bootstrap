@@ -724,6 +724,20 @@ iframe{
         }
 }
 
+
+@media (min-width: 1200px) and (max-width: 1900px) {
+.serviços {
+    display: flex;
+    justify-content: center;
+}
+
+.card-place{
+    display: flex;
+    justify-content: center;
+}
+}
+
+
 @mixin media() {
     @media (min-width: 768px) {
         @content;
