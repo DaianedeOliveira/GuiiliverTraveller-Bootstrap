@@ -755,6 +755,17 @@ iframe{
     }
 }
 
+.historia {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+.box_1, .accordion-header{
+    color: #062B5C;
+    font-weight: 900;
+
+}
 
 .cardi {
     height: 400px;
